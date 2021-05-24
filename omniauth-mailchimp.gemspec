@@ -2,7 +2,7 @@
 require File.expand_path('../lib/omniauth/mailchimp/version', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.add_dependency 'omniauth', '~> 1.0'
+  gem.add_dependency 'omniauth', '> 1.9.1'
 
   gem.authors = ["Steven Karas", "Florian Mhun"]
   gem.email = ["steven.karas@gmail.com", "florian.mhun@gmail.com"]
