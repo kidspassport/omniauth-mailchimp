@@ -4,12 +4,12 @@ require 'omniauth-mailchimp'
 describe OmniAuth::Strategies::Mailchimp do
   before :each do
     @request = double('Request')
-    @request.stub(:params) { {} }
   end
   
   subject do
     OmniAuth::Strategies::Mailchimp.new(nil, @options || {}).tap do |strategy|
       strategy.stub(:request) { @request }
+      strategy.stub(:script_name) { "" }
     end
   end
 
