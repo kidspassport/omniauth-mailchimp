@@ -6,8 +6,8 @@ Gem::Specification.new do |gem|
 
   gem.authors = ["Steven Karas", "Florian Mhun"]
   gem.email = ["steven.karas@gmail.com", "florian.mhun@gmail.com"]
-  gem.description = %q{MailChimp OAuth2 strategy for OmniAuth 1.0}
-  gem.summary = %q{MailChimp OAuth2 strategy for OmniAuth 1.0.}
+  gem.description = %q{MailChimp OAuth2 strategy for OmniAuth 2.0}
+  gem.summary = %q{MailChimp OAuth2 strategy for OmniAuth 2.0.}
   gem.homepage = "https://github.com/stevenkaras/omniauth-mailchimp"
 
   gem.executables = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }

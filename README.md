@@ -1,6 +1,6 @@
 # Mailchimp Strategy
 
-MailChimp OAuth2 strategy for OmniAuth 1.0 using the v2 Mailchimp API.
+MailChimp OAuth2 strategy for OmniAuth 2.0 using the v2 Mailchimp API.
 
 Tested using Ruby 2.4.
 Should support Ruby 2.1 and later.
